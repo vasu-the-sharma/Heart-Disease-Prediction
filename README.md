@@ -8,7 +8,7 @@ A study shows that from 1990 to 2016 the death rate due to heart diseases have i
 Thus preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.
 
 Problem Description :
-A dataset is formed by taking into consideration some of the information of 779 individuals. The problem is : based on the given information about each individual we have to calculate that whether that individual will suffer from heart disease.
+A dataset is formed by taking into consideration some of the information of 779 individuals. The problem is based on the given information about each individual we have to calculate that whether that individual will suffer from heart disease.
 
 Dataset :
 The dataset consists of 779 individuals data. There are 15 columns in the dataset, however the first column name is not a good parameter as far as machine learning is considered so, there are effectively 14 columns.
@@ -27,6 +27,7 @@ Peak exercise ST segment : 1 = upsloping 2 = flat 3 = downsloping
 Number of major vessels (0-3) colored by flourosopy : displays the value as integer or float.
 Thal : displays the thalassemia : 3 = normal 6 = fixed defect 7 = reversable defect
 Diagnosis of heart disease : Displays whether the individual is suffering from heart disease or not : 0 = absence 1,2,3,4 = present.
+
 Model Training and Prediction :
 We can train our prediction model by analyzing existing data because we already know whether each patient has heart disease. This process is also known as supervision and learning. The trained model is then used to predict if users suffer from heart disease. The training and prediction process is described as follows:
 
@@ -36,5 +37,7 @@ The following classification models are used - Random Forest Classfier, KNN Clas
 Evaluation:
 The cross value score from sklearn.model_selection is used to evaluate the accuracy of the model.
 The model gives different accuracies for different algorithms.
+
 KNN: 84+ % accuracy
+
 Random Forest: 80+ % accuracy
